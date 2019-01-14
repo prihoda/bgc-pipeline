@@ -1,0 +1,9 @@
+[core]
+remote = origin
+LogLevel = Info
+
+['remote "origin"']
+url = s3://bgc-data/bgc-training-data/cache
+['remote "ctc"']
+url = ssh://prihodad@ctchpcvs001.merck.com:/SFS/user/ctc/prihodad/bgc-pipeline-data
+port = 2022

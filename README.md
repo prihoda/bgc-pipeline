@@ -1,6 +1,14 @@
-# BGC-pipeline
+### Note!
 
-This repository provides data and examples for development and evaluation of DeepBGC, ClusterFinder and antiSMASH.
+**This repository provides data and examples that were used for development of DeepBGC and its evaluation with ClusterFinder and antiSMASH.**
+
+**See https://github.com/Merck/deepbgc for the DeepBGC tool.**
+
+### Note!
+
+# DeepBGC development & evaluation code
+
+## Reproducing data
 
 Reproduction and storage of data files is managed using [DVC](https://github.com/iterative/dvc) (development version `0.22.0`). 
 Each data file has a `.dvc` history file that contains the command that was used to generate the output along with md5 hashes of its dependencies.
@@ -9,8 +17,6 @@ Each data file has a `.dvc` history file that contains the command that was used
 
 - Install python 3, ideally using conda
 - Run `pip install -r requirements.txt` to download DVC and other requirements
-- Ask for [access to Lab cloud](https://servicerequests.merck.com/ux/rest/share/OJSXG33VOJRWKSLEHUZDKNRGOJSXG33VOJRWKVDZOBST2U2CL5IFET2GJFGEKJTUMVXGC3TUJFSD2MBQGAYDAMBQGAYDAMBQGAYDCJTDN5XHIZLYORKHS4DFHVBUCVCBJRHUOX2IJ5GUK===) if you don't have it
-- Download the AWS authorization script: https://stash.merck.com/projects/PAVEL/repos/generate-aws-config/browse
 
 ## Downloading a file
 
